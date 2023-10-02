@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Imprimi tu Menú</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/imprimi.css">
+    <link rel="icon" href="LOGO1.ico">
+
+</head>
+
+<body>
+  <header>
+     <!--------------------------NAVBAR--------------------->
+     <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand gap-5" href="#"><strong>ClaaroNutri</strong></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-5">
+              <li class="nav-item">
+                <a class="nav-link">CONSULTAS</a
+                >
+              </li>
+              
+            </ul>
+            <span class="navbar-text me-4"><img class="logo" src="img/LOGO1.png" alt=""> </span>
+          </div>
+        </div>
+      </nav>
+  </header>
+  <main>
+    <div class="container">
+      <div class="ppio">
+        <h3>Imprimí tu Menú semanal</h3>
+        <p class="p1">¿Te quedas sin ideas para cocinar en el día a día? Mirá estas opciones para organizar tus comidas.</p>
+      </div>
+      <div>
+        <p class="p"><strong>Menú Light con Carnes</strong></p>
+      </div>
+      <div class="table-responsive">
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Lunes</th>
+            <th scope="col">Martes</th>
+            <th scope="col">Miércoles</th>
+            <th scope="col">Jueves</th>
+            <th scope="col">Viernes</th>
+            <th scope="col">Sábado</th>
+            <th scope="col">Domingo</th>      
+          </tr>
+        </thead>
+        <tbody class="table-group-divider">
+          <tr>
+            <td>Churrasco con 
+              Papa, remolacha y huevo</td>
+            <td>Milanesa de pescado con tortilla de zapallito</td>
+            <td>Lasaña de zuchini y pollo</td>
+            <td>Croquetas de atún con papa y boniato al horno</td>
+            <td>Pastel de calabaza</td>
+            <td>Milanesa de berenjena más zanahoria rallada y aceitunas </td>
+            <td>Ensalada <br> 1 plato chico de ravioles</td>
+            
+          </tr>
+          <tr>
+            <td>Ensalada de tomate, lechuga, pepino, aceitunas y palta</td>
+            <td>Ensalada de repollo, huevo duro, queso fresco descremado, rúcula y remolacha</td>
+            <td>Hamburguesa de lenteja con cebolla y tomate</td>
+            <td>Huevo revuelto más patitas de espinaca y garbanzo </td>
+            <td>Ensalada de vegetales cocidos (berenjena, calabaza, cebolla, puerro) y pollo</td>
+            <td>Tarta de jamón y queso</td>
+            <td>Sopa
+              Fruta <br>
+              Huevo revuelto</td>
+          </tr>
+          
+        </tbody>
+      </table>
+      </div>
+      <div class="boton">
+      <button type="submit" class="btn btn-crimson text-center mb-3" onclick="window.print()" id="print">Imprimir</button>
+      </div>
+    <p class="p"><strong>Menú Keto</strong></p>
+    <div class="table-responsive">
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Lunes</th>
+            <th scope="col">Martes</th>
+            <th scope="col">Miércoles</th>
+            <th scope="col">Jueves</th>
+            <th scope="col">Viernes</th>
+            <th scope="col">Sábado</th>
+            <th scope="col">Domingo</th>      
+          </tr>
+        </thead>
+        <tbody class="table-group-divider">
+          <tr>
+            <td>Pollo a la mostaza relleno (jamón y muzarella) con tomate y cebolla</td>
+            <td>Hamburguesa a la napolitana con calabaza al horno</td>
+            <td>Bife a la plancha con ensalada de remolacha, lechuga y huevo duro</td>
+            <td>Carré de cerdo con aceitunas, tomate y palmitos</td>
+            <td>Carne al horno con colchón de vegetales (cebolla morada, morrón, zanahoria, puerro)</td>
+            <td>Tallarines de zuchini y zanahoria con salsa fileto</td>
+            <td>Vacío al horno o parrilla con ensalada de rúcula y tomate</td>
+          </tr>
+          <tr>
+            <td>Ensalada con atún, huevo duro, queso fresco, tomate cherry, brotes de soja y aceitunas</td>
+            <td>Tortilla de espinaca con zanahoria rallada</td>
+            <td>Tarta de vegetales con base de polenta</td>
+            <td>Canelones de jamón (relleno con cebolla, acelga o espinaca, pollo o carne picada) rociados con salsa de tomate</td>
+            <td>Zapallito relleno con carne picada, cebolla, puerro y queso fresco</td>
+            <td>Pizza de pollo o de coliflor</td>
+            <td>Picada (jamón, queso, aceitunas, pickles, tomates Cherry, huevo revuelto, pan 0% harina)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div> 
+      <div class="boton">
+      <button type="submit" class="btn btn-crimson text-center mb-3" onclick="window.print()" id="print">Imprimir</button>
+      </div>
+
+      <p class="p"><strong>Menú Vegetariano</strong> </p>
+    <div class="table-responsive">
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Lunes</th>
+            <th scope="col">Martes</th>
+            <th scope="col">Miércoles</th>
+            <th scope="col">Jueves</th>
+            <th scope="col">Viernes</th>
+            <th scope="col">Sábado</th>
+            <th scope="col">Domingo</th>      
+          </tr>
+        </thead>
+        <tbody class="table-group-divider">
+          <tr>
+            <td>Salpicón de garbanzos, palmitos, lechuga, aceitunas y tomate</td>
+            <td>Hamburguesas de lentejas con ensalada de tomate, apio y cebolla</td>
+            <td>Milanesa de soja con brócoli y remolacha</td>
+            <td>Calabaza rellena (pulpa calabaza, cebolla, puerro, zanahoria, champiñones, queso fresco descremado)</td>
+            <td>Guiso de arroz integral y vegetales</td>
+            <td>Churrasco de seitán con tomate,lechuga y choclo</td>
+            <td>Tallarines de zuchini o zanahoria con boloñesa (soja texturizada)</td>
+          </tr>
+          <tr>
+            <td>Salteado de arroz, zuchini, puerro, cebolla y huevo </td>
+            <td>Croquetas de calabaza con ensalada de zanahoria rallada y palta</td>
+            <td>Tirabuzones con salsa fileto y salteado de cebolla, morrón y zanahoria</td>
+            <td>Tortilla de vegetales surtidos (brócoli, cebolla, calabaza, batata o papa) con ensalada de porotos </td>
+            <td>Lasagna de berenjena </td>
+            <td>Pizza integral </td>
+            <td>Albóndigas de berenjena con batata y calabaza al horno</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+      <div class="boton">
+      <button type="submit" class="btn btn-crimson text-center mb-3" onclick="window.print()" id="print">Imprimir</button>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <!-- place footer here -->
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>

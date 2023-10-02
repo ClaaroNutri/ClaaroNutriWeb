@@ -1,0 +1,99 @@
+html{
+    user-select: none;
+}
+.navbar{
+    background-color:#f59b71;
+    color:white;
+}
+
+.navbar-brand, .nav-link {
+    color:#f1f1c1;
+}
+.navbar-brand:hover, .nav-link:hover {
+    color:#e0e0a8;
+}
+
+.logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    box-shadow: 1px 3px 13px #c7c77f;
+}
+
+
+.titulo {text-align: center;
+    margin:30px;
+    color:#f59b71;
+}
+
+.titulo:hover {color:#c7c77f;
+    letter-spacing: 0.09rem;}
+
+.parrafo {font-weight: bold;
+    margin-bottom: 35px;
+}
+.paragraph{
+    letter-spacing: 0.09rem;
+    color:#f59b71;
+}
+#rec {display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+.card {box-shadow: 1px 2px 13px #c7c77f;}
+.card-header{
+    background-color: #f1f1c1;
+    color:#ff7474;
+    text-align: center;
+    font-weight: 600;
+}
+.card:hover {transform: scale(0.9);
+    transition: 3s;
+}
+
+.card-body {display:flex;
+    align-items:center;
+    justify-content: center;
+    color:#ff7474;
+}
+
+.arr {text-align: center;
+    margin-bottom: 35px;
+    margin-top: 20px;
+}
+.inicio{
+    background-color:#e0e0a8;
+    text-decoration: none;
+    color:#ff7474;
+    font-weight:700;
+    
+}
+.inicio:hover{
+    color:#ff7474;
+}
+.ultra{
+    justify-self:center;
+    align-self: center;
+}
+.btn-crimson{
+    background-color:#e0e0a8;
+    color:#ff7474;
+    font-weight:700;
+    width: 35%;
+    text-decoration: none;
+    padding:4px 5px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 5px;
+}
+.btn-crimson:hover{
+    color:black;
+    font-weight: bold;
+}
+.arriba{
+    margin-left: 15px;
+    margin-bottom: 25px;
+}

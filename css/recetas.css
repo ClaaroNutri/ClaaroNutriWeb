@@ -1,0 +1,71 @@
+html{
+    user-select: none;
+}
+.navbar{
+    background-color:#f59b71;
+    color:white;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    box-shadow: 1px 3px 13px #c7c77f;
+}
+.navbar-brand, .nav-link {
+    color:#f1f1c1;
+}
+.navbar-brand:hover, .nav-link:hover {
+    color:#e0e0a8;
+}
+.navbar-brand{
+    font-size: x-large;
+}
+
+.titulo {text-align: center;
+    margin:30px;
+    color:#f59b71;
+}
+
+.titulo:hover {color:#c7c77f;
+    letter-spacing: 0.09rem;}
+
+.card {box-shadow: 1px 2px 13px #c7c77f;}
+
+.link {color:#ff7474;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+}
+.link:hover {color:#AEC58E;}
+
+.card img{
+    height: 200px;
+}
+
+.card-body {text-align: center;
+    color:#ff7474;
+}
+.card-body:hover {
+    color:#AEC58E;
+}
+.inicio{
+    background-color:#e0e0a8;
+    text-decoration: none;
+    color:#ff7474;
+    font-weight:700;
+    margin-top: 25px;
+    margin-bottom: 25px;   
+}
+.inicio:hover{
+    color:#ff7474;
+}
+/*---------------------carne-----------*/
+.container_carne{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    gap:20px;
+    margin-top: 25px;
+
+}

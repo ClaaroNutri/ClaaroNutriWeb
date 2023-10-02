@@ -1,0 +1,30 @@
+body {background-color: #AEC58E;}
+
+.logo {text-align: left;}
+
+.log {border-radius: 10px;
+    box-shadow: 8px 5px 5px darkslategray;
+    margin:35px;
+}
+h3:hover {color:#D56862;}
+
+.p1 {margin-bottom: 45px;
+    margin-top: 30px;
+}
+
+.p {font-size: larger;
+text-align: center;}
+
+.ppio {text-align:center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.table {margin: 15px;}
+
+.boton {text-align: right;
+margin-top: 25px;
+margin-bottom:45px;}
+
+@media (max-widht:500px) {
+    .table {max-width: min-content;}
+}
